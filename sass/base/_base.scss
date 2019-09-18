@@ -29,3 +29,10 @@ body {
 	line-height: 1.8;
 	letter-spacing: 0.066rem;
 }
+
+.section-main {
+	width: 100%;
+	height: auto;
+	min-height: 40vh;
+	background-color: $color-primary-dark;
+}
