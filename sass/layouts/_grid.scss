@@ -9,9 +9,9 @@
 
 	@include clearfix;
 
-	&:last-child {
-		margin-bottom: 6rem;
-	}
+	// &:last-child {
+	// 	margin-bottom: 6rem;
+	// }
 
 	[class^="col-"] {
 		float: left;
