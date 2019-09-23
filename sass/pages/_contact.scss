@@ -1,11 +1,3 @@
-.contact-content {
-	position: relative;
-	width: 100%;
-	background-color: $color-primary-dark;
-	height: auto;
-	min-height: 40vh;
-}
-
 input,
 textarea {
 	color: $color-primary-light;
@@ -20,7 +12,7 @@ textarea {
 	-o-border-radius: 0.4rem;
 }
 
-input:focus,
+input input:focus,
 textarea:focus {
 	outline: none;
 }
@@ -41,15 +33,17 @@ input[type="submit"]:active {
 	color: $color-primary-dark;
 }
 
-.map-holder_contact {
+.mapouter {
+	position: relative;
+	text-align: right;
 	height: 100%;
 	width: 100%;
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
 }
 
-.map {
-	width: 100%;
+.gmap_canvas {
+	overflow: hidden;
+	background: none !important;
 	height: 100%;
+	width: 100%;
+	margin: 0 auto;
 }

@@ -31,8 +31,15 @@ body {
 }
 
 .section-main {
+	position: relative;
 	width: 100%;
+	background-color: $color-primary-dark;
 	height: auto;
 	min-height: 40vh;
-	background-color: $color-primary-dark;
+}
+
+.row div[class$="about"],
+.row div[class$="contact"] {
+	/* border: 1px solid #fff; */
+	height: 85vh;
 }

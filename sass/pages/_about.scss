@@ -1,17 +1,3 @@
-.about-content {
-	position: relative;
-	width: 100%;
-	background-color: $color-primary-dark;
-	height: auto;
-	min-height: 40vh;
-}
-
-.row div[class$="about"],
-.row div[class$="contact"] {
-	/* border: 1px solid #fff; */
-	height: 80vh;
-}
-
 .content-holder {
 	padding: 9%;
 	font-family: "Roboto", sans-serif;

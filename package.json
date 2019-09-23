@@ -7,7 +7,7 @@
 		"watch:sass": "node-sass sass/main.scss css/style.css -w",
 		"start": "npm-run-all watch:sass",
 		"compile:sass": "node-sass sass/main.scss css/style.comp.css",
-		"concat:css": "concat -o css/style.concat.css fonts/ionicons.min.css css/style.comp.css",
+		"concat:css": "concat -o css/style.concat.css fonts/icomoon.css fonts/ionicons.min.css css/style.comp.css",
 		"compress:css": "node-sass css/style.concat.css css/style.css --output-style compressed",
 		"build:css": "npm-run-all compile:sass concat:css compress:css"
 	},
@@ -25,6 +25,7 @@
 	"dependencies": {
 		"aos": "^2.3.4",
 		"bootstrap": "^4.3.1",
+		"isotope-layout": "^3.0.6",
 		"jquery": "^3.4.1"
 	}
 }

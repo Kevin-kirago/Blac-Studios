@@ -67,6 +67,11 @@
 			&:not(:last-child) {
 				margin: 0 1rem;
 			}
+
+			&:hover,
+			&:active {
+				color: $color-primary-yellow;
+			}
 		}
 
 		&-behance2 {
@@ -74,9 +79,4 @@
 			margin-left: 1rem;
 		}
 	}
-}
-
-.social-btns .icon-link:hover,
-.social-btns .icon-link:active {
-	color: $color-primary-yellow;
 }
