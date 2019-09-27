@@ -40,6 +40,10 @@ body {
 
 .row div[class$="about"],
 .row div[class$="contact"] {
-	/* border: 1px solid #fff; */
 	height: 85vh;
+}
+
+// Utilities
+.work {
+	padding-bottom: 8rem;
 }
