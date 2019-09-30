@@ -14,6 +14,7 @@ popup.addEventListener("click", hidePopup);
 
 function showPopup() {
 	popup.classList.add("show-popup");
+	con;
 }
 function hidePopup() {
 	popup.classList.remove("show-popup");
