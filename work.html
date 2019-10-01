@@ -9,7 +9,9 @@
         <!-- Links -->
         <link rel="stylesheet" href="fonts/ionicons.min.css">
         <link rel="stylesheet" href="fonts/icomoon.css">
+
         <link rel="stylesheet" href="node_modules/aos/dist/aos.css">
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="css/style.css">
 
         <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
@@ -48,96 +50,377 @@
 
         <main class="section-main work">
             <div class="row">
-                <div class="col-1-of-3 gallery-container" data-aos="fade-up" data-aos-delay="100" data-aos-easing="sliding" data-aos-duration="1000">
+                <div class="col-1-of-3 gallery-container" data-toggle="modal" data-target="#gallery-img_1" data-aos="fade-up" data-aos-delay="100" data-aos-easing="sliding" data-aos-duration="1000">
                     <div class="gallery-container_img" style="background-image: url(images/Valon_Familly_Pack.jpg)"></div>
                     <span class="gallery-caption">Valon Products</span>
                 </div>
-                <div class="col-1-of-3 gallery-container" data-aos="fade-up" data-aos-delay="200" data-aos-easing="sliding" data-aos-duration="1000">
+
+                <!-- Modal start -->
+                <div class="modal" id="gallery-img_1">
+                    <div class="modal__header">
+                        <span class="modal__header-title">Valon Product Shot</span>
+                        <a class="modal__header-close" data-dismiss="modal">
+                            <i class="ion-close"></i>
+                        </a>
+                    </div>
+                    <div class="modal__content">
+                        <div class="modal__content--img" style="background-image: url(images/Valon_Familly_Pack.jpg)"></div>
+                        <div class="modal__content--img" style="background-image: url(images/Valon_Familly_Pack_Amb.png)"></div>
+                    </div>
+                    <div class="modal__footer">
+                        We bring together architecture, storytelling and emerging technologies to create award winning work.
+                    </div>
+                </div>
+                <!-- Modal end -->
+
+                <div class="col-1-of-3 gallery-container" data-toggle="modal" data-target="#gallery-img_2" data-aos="fade-up" data-aos-delay="200" data-aos-easing="sliding" data-aos-duration="1000">
                     <div class="gallery-container_img" style="background-image: url(images/smirnoff_Hi_Res01.jpg)"></div>
                     <span class="gallery-caption">Sminorff Apple Green</span>
                 </div>
-                <div class="col-1-of-3 gallery-container" data-aos="fade-up" data-aos-delay="300" data-aos-easing="sliding" data-aos-duration="1000">
+
+                <!-- Modal start -->
+                <div class="modal" id="gallery-img_2">
+                    <div class="modal__header">
+                        <span class="modal__header-title">Sminorff Apple Green</span>
+                        <a class="modal__header-close" data-dismiss="modal">
+                            <i class="ion-close"></i>
+                        </a>
+                    </div>
+                    <div class="modal__content">
+                        <div class="modal__content--img" style="background-image: url(images/smirnoff_Hi_Res.jpg)"></div>
+                        <div class="modal__content--img" style="background-image: url(images/smirnoff_Hi_Res01.jpg)"></div>
+                        <div class="modal__content--img" style="background-image: url(images/smirnoff_ClayRender_02.jpg)"></div>
+                    </div>
+                    <div class="modal__footer">
+                        We bring together architecture, storytelling and emerging technologies to create award winning work.
+                    </div>
+                </div>
+                <!-- Modal end -->
+
+                <div class="col-1-of-3 gallery-container" data-toggle="modal" data-target="#gallery-img_3" data-aos="fade-up" data-aos-delay="300" data-aos-easing="sliding" data-aos-duration="1000">
                     <div class="gallery-container_img" style="background-image: url(images/whiskey.png)"></div>
                     <span class="gallery-caption">Whiskey</span>
                 </div>
+
+                <!-- Modal start -->
+                <div class="modal" id="gallery-img_3">
+                    <div class="modal__header">
+                        <span class="modal__header-title">Whiskey Product</span>
+                        <a class="modal__header-close" data-dismiss="modal">
+                            <i class="ion-close"></i>
+                        </a>
+                    </div>
+                    <div class="modal__content">
+                        <div class="modal__content--img" style="background-image: url(images/whiskey.png)"></div>
+                        <div class="modal__content--img" style="background-image: url(images/whisky.jpg)"></div>
+                        <div class="modal__content--img" style="background-image: url(images/Whiskey03.jpeg)"></div>
+                        <div class="modal__content--img" style="background-image: url(images/Whiskey04.png)"></div>
+                        <div class="modal__content--img" style="background-image: url(images/Whiskey05.jpeg)"></div>
+                    </div>
+                    <div class="modal__footer">
+                        We bring together architecture, storytelling and emerging technologies to create award winning work.
+                    </div>
+                </div>
+                <!-- Modal end -->
             </div>
             <div class="row">
-                <div class="col-1-of-3 gallery-container" data-aos="fade-up" data-aos-delay="400" data-aos-easing="sliding" data-aos-duration="1000">
+                <div class="col-1-of-3 gallery-container" data-toggle="modal" data-target="#gallery-img_4" data-aos="fade-up" data-aos-delay="400" data-aos-easing="sliding" data-aos-duration="1000">
                     <div class="gallery-container_img" style="background-image: url(images/iria.png)"></div>
                     <span class="gallery-caption">Fresh Iria Milk</span>
                 </div>
-                <div class="col-1-of-3 gallery-container" data-aos="fade-up" data-aos-delay="500" data-aos-easing="sliding" data-aos-duration="1000">
+
+                <!-- Modal start -->
+                <div class="modal" id="gallery-img_4">
+                    <div class="modal__header">
+                        <span class="modal__header-title">Fresh Iria Milk</span>
+                        <a class="modal__header-close" data-dismiss="modal">
+                            <i class="ion-close"></i>
+                        </a>
+                    </div>
+                    <div class="modal__content">
+                        <div class="modal__content--img" style="background-image: url(images/iria.png)"></div>
+                        <div class="modal__content--img" style="background-image: url(images/Iria_fresh_milk01.png)"></div>
+                        <div class="modal__content--img" style="background: #fff;">
+                            <iframe width="100%" height="100%" allowfullscreen="" frameborder="0" src="https://player.vimeo.com/video/225213273"></iframe>
+                        </div>
+                    </div>
+                    <div class="modal__footer">
+                        We bring together architecture, storytelling and emerging technologies to create award winning work.
+                    </div>
+                </div>
+                <!-- Modal end -->
+
+                <div class="col-1-of-3 gallery-container" data-toggle="modal" data-target="#gallery-img_5" data-aos="fade-up" data-aos-delay="500" data-aos-easing="sliding" data-aos-duration="1000">
                     <div class="gallery-container_img" style="background-image: url(images/Fresh_smoothies.png)"></div>
                     <span class="gallery-caption">Fresh Smoothies</span>
                 </div>
-                <div class="col-1-of-3 gallery-container" data-aos="fade-up" data-aos-delay="600" data-aos-easing="sliding" data-aos-duration="1000">
+
+                <!-- Modal start -->
+                <div class="modal" id="gallery-img_5">
+                    <div class="modal__header">
+                        <span class="modal__header-title">Fresh Smoothies</span>
+                        <a class="modal__header-close" data-dismiss="modal">
+                            <i class="ion-close"></i>
+                        </a>
+                    </div>
+                    <div class="modal__content">
+                        <div class="modal__content--img" style="background-image: url(images/Fresh_smoothies.png)"></div>
+                        <div class="modal__content--img" style="background-image: url(images/Fresh_smoothies02.png)"></div>
+                    </div>
+                    <div class="modal__footer">
+                        We bring together architecture, storytelling and emerging technologies to create award winning work.
+                    </div>
+                </div>
+                <!-- Modal end -->
+
+                <div class="col-1-of-3 gallery-container" data-toggle="modal" data-target="#gallery-img_6" data-aos="fade-up" data-aos-delay="600" data-aos-easing="sliding" data-aos-duration="1000">
                     <div class="gallery-container_img" style="background-image: url(images/Music.jpg)"></div>
                     <span class="gallery-caption">Music</span>
                 </div>
+
+                <!-- Modal start -->
+                <div class="modal" id="gallery-img_6">
+                    <div class="modal__header">
+                        <span class="modal__header-title">Music Shot</span>
+                        <a class="modal__header-close" data-dismiss="modal">
+                            <i class="ion-close"></i>
+                        </a>
+                    </div>
+                    <div class="modal__content">
+                        <div class="modal__content--img" style="background-image: url(images/Music.jpg)"></div>
+                    </div>
+                    <div class="modal__footer">
+                        We bring together architecture, storytelling and emerging technologies to create award winning work.
+                    </div>
+                </div>
+                <!-- Modal end -->
             </div>
             <div class="row">
-                <div class="col-1-of-3 gallery-container" data-aos="fade-up" data-aos-delay="100" data-aos-easing="sliding" data-aos-duration="1000">
+                <div class="col-1-of-3 gallery-container" data-toggle="modal" data-target="#gallery-img_7" data-aos="fade-up" data-aos-delay="100" data-aos-easing="sliding" data-aos-duration="1000">
                     <div class="gallery-container_img" style="background-image: url(images/Black.png)"></div>
                     <span class="gallery-caption">Black</span>
                 </div>
-                <div class="col-1-of-3 gallery-container" data-aos="fade-up" data-aos-delay="200" data-aos-easing="sliding" data-aos-duration="1000">
+
+                <!-- Modal start -->
+                <div class="modal" id="gallery-img_7">
+                    <div class="modal__header">
+                        <span class="modal__header-title">Black Product Shot</span>
+                        <a class="modal__header-close" data-dismiss="modal">
+                            <i class="ion-close"></i>
+                        </a>
+                    </div>
+                    <div class="modal__content">
+                        <div class="modal__content--img" style="background-image: url(images/Black.png)"></div>
+                        <div class="modal__content--img" style="background: #fff">
+                            <iframe width="100%" height="100%" allowfullscreen="" frameborder="0" src="https://player.vimeo.com/video/222206537"></iframe>
+                        </div>
+                    </div>
+                    <div class="modal__footer">
+                        We bring together architecture, storytelling and emerging technologies to create award winning work.
+                    </div>
+                </div>
+                <!-- Modal end -->
+
+                <div class="col-1-of-3 gallery-container" data-toggle="modal" data-target="#gallery-img_8" data-aos="fade-up" data-aos-delay="200" data-aos-easing="sliding" data-aos-duration="1000">
                     <div class="gallery-container_img" style="background-image: url(images/Pride_Lemon_Fresh.jpg)"></div>
                     <span class="gallery-caption">Pride Packshot</span>
                 </div>
-                <div class="col-1-of-3 gallery-container" data-aos="fade-up" data-aos-delay="300" data-aos-easing="sliding" data-aos-duration="1000">
+
+                <!-- Modal start -->
+                <div class="modal" id="gallery-img_8">
+                    <div class="modal__header">
+                        <span class="modal__header-title">Pride Packshot</span>
+                        <a class="modal__header-close" data-dismiss="modal">
+                            <i class="ion-close"></i>
+                        </a>
+                    </div>
+                    <div class="modal__content">
+                        <div class="modal__content--img" style="background-image: url(images/Pride_Lemon_Fresh.jpg)"></div>
+                        <div class="modal__content--img" style="background-image: url(images/Pride_Lemon_Fresh_ClayRender.jpg)"></div>
+                    </div>
+                    <div class="modal__footer">
+                        We bring together architecture, storytelling and emerging technologies to create award winning work.
+                    </div>
+                </div>
+                <!-- Modal end -->
+
+                <div class="col-1-of-3 gallery-container" data-toggle="modal" data-target="#gallery-img_9" data-aos="fade-up" data-aos-delay="300" data-aos-easing="sliding" data-aos-duration="1000">
                     <div class="gallery-container_img" style="background-image: url(images/Mega_growth_products.png)"></div>
                     <span class="gallery-caption">Mega Growth Products</span>
                 </div>
+
+                <!-- Modal start -->
+                <div class="modal" id="gallery-img_9">
+                    <div class="modal__header">
+                        <span class="modal__header-title">Mega Growth Products</span>
+                        <a class="modal__header-close" data-dismiss="modal">
+                            <i class="ion-close"></i>
+                        </a>
+                    </div>
+                    <div class="modal__content">
+                        <div class="modal__content--img" style="background-image: url(images/Mega_growth_products.png)"></div>
+                        <div class="modal__content--img" style="background-image: url(images/Mega_growth_products02.png)"></div>
+                        <div class="modal__content--img" style="background-image: url(images/Mega_growth_products03.png)"></div>
+                    </div>
+                    <div class="modal__footer">
+                        We bring together architecture, storytelling and emerging technologies to create award winning work.
+                    </div>
+                </div>
+                <!-- Modal end -->
             </div>
             <div class="row">
-                <div class="col-1-of-3 gallery-container" data-aos="fade-up" data-aos-delay="100" data-aos-easing="sliding" data-aos-duration="1000">
+                <div class="col-1-of-3 gallery-container" data-toggle="modal" data-target="#gallery-img_10" data-aos="fade-up" data-aos-delay="100" data-aos-easing="sliding" data-aos-duration="1000">
                     <div class=" gallery-container_img" style="background-image: url(images/Aliyana_product01.jpg)"></div>
                     <span class="gallery-caption">Aliyana Products</span>
                 </div>
-                <div class="col-1-of-3 gallery-container" data-aos="fade-up" data-aos-delay="200" data-aos-easing="sliding" data-aos-duration="1000">
+
+                <!-- Modal start -->
+                <div class="modal" id="gallery-img_10">
+                    <div class="modal__header">
+                        <span class="modal__header-title">Aliyana Products</span>
+                        <a class="modal__header-close" data-dismiss="modal">
+                            <i class="ion-close"></i>
+                        </a>
+                    </div>
+                    <div class="modal__content">
+                        <div class="modal__content--img" style="background-image: url(images/Aliyana_product01.jpg)"></div>
+                        <div class="modal__content--img" style="background-image: url(images/Aliyana_product02.jpg)"></div>
+                        <div class="modal__content--img" style="background-image: url(images/Aliyana_product03.jpg)"></div>
+                        <div class="modal__content--img" style="background-image: url(images/Aliyana_product04.jpg)"></div>
+                        <div class="modal__content--img" style="background-image: url(images/Aliyana_product05.jpg)"></div>
+                        <div class="modal__content--img" style="background-image: url(images/Aliyana_product06.jpg)"></div>
+                    </div>
+                    <div class="modal__footer">
+                        We bring together architecture, storytelling and emerging technologies to create award winning work.
+                    </div>
+                </div>
+
+                <!-- Modal end -->
+                <div class="col-1-of-3 gallery-container" data-toggle="modal" data-target="#gallery-img_11" data-aos="fade-up" data-aos-delay="200" data-aos-easing="sliding" data-aos-duration="1000">
                     <div class=" gallery-container_img" style="background-image: url(images/Kenya_cane.png)"></div>
                     <span class="gallery-caption">Kenya Cane</span>
                 </div>
-                <div class="col-1-of-3 gallery-container" data-aos="fade-up" data-aos-delay="300" data-aos-easing="sliding" data-aos-duration="1000">
+
+                <!-- Modal start -->
+                <div class="modal" id="gallery-img_11">
+                    <div class="modal__header">
+                        <span class="modal__header-title">Kenya Cane</span>
+                        <a class="modal__header-close" data-dismiss="modal">
+                            <i class="ion-close"></i>
+                        </a>
+                    </div>
+                    <div class="modal__content">
+                        <div class="modal__content--img" style="background-image: url(images/Kenya_cane.png)"></div>
+                        <div class="modal__content--img" style="background-image: url(images/Kenya_cane02.png)"></div>
+                    </div>
+                    <div class="modal__footer">
+                        We bring together architecture, storytelling and emerging technologies to create award winning work.
+                    </div>
+                </div>
+                <!-- Modal end -->
+
+                <div class="col-1-of-3 gallery-container" data-toggle="modal" data-target="#gallery-img_12" data-aos="fade-up" data-aos-delay="300" data-aos-easing="sliding" data-aos-duration="1000">
                     <div class=" gallery-container_img" style="background-image: url(images/toyCar.jpg)"></div>
                     <span class="gallery-caption">Toy Car</span>
                 </div>
+
+                <!-- Modal start -->
+                <div class="modal" id="gallery-img_12">
+                    <div class="modal__header">
+                        <span class="modal__header-title">Toy Car</span>
+                        <a class="modal__header-close" data-dismiss="modal">
+                            <i class="ion-close"></i>
+                        </a>
+                    </div>
+                    <div class="modal__content">
+                        <div class="modal__content--img" style="background-image: url(images/toyCar.jpg)"></div>
+                        <div class="modal__content--img" style="background-image: url(images/toyCar-2.jpg)"></div>
+                    </div>
+                    <div class="modal__footer">
+                        We bring together architecture, storytelling and emerging technologies to create award winning work.
+                    </div>
+                </div>
+                <!-- Modal end -->
+
             </div>
             <div class="row">
-                <div class="col-1-of-3 gallery-container" data-aos="fade-up" data-aos-delay="100" data-aos-easing="sliding" data-aos-duration="1000">
+                <div class="col-1-of-3 gallery-container" data-toggle="modal" data-target="#gallery-img_13" data-aos="fade-up" data-aos-delay="100" data-aos-easing="sliding" data-aos-duration="1000">
                     <div class=" gallery-container_img" style="background-image: url(images/Coca-cola_Bottle.png)"></div>
                     <span class="gallery-caption">Coca-cola bottle</span>
                 </div>
-                <div class="col-1-of-3 gallery-container" data-aos="fade-up" data-aos-delay="200" data-aos-easing="sliding" data-aos-duration="1000">
+
+                <!-- Modal start -->
+                <div class="modal" id="gallery-img_13">
+                    <div class="modal__header">
+                        <span class="modal__header-title">Coca-cola bottle</span>
+                        <a class="modal__header-close" data-dismiss="modal">
+                            <i class="ion-close"></i>
+                        </a>
+                    </div>
+                    <div class="modal__content">
+                        <div class="modal__content--img" style="background-image: url(images/Coca-cola_Bottle.png)"></div>
+                        <div class="modal__content--img" style="background-image: url(images/Coca-cola_Bottle02.png)"></div>
+                    </div>
+                    <div class="modal__footer">
+                        We bring together architecture, storytelling and emerging technologies to create award winning work.
+                    </div>
+                </div>
+                <!-- Modal end -->
+
+                <div class="col-1-of-3 gallery-container" data-toggle="modal" data-target="#gallery-img_14" data-aos="fade-up" data-aos-delay="200" data-aos-easing="sliding" data-aos-duration="1000">
                     <div class=" gallery-container_img" style="background-image: url(images/Character101.jpg)"></div>
                     <span class="gallery-caption">Character101</span>
                 </div>
-                <div class="col-1-of-3 gallery-container" data-aos="fade-up" data-aos-delay="300" data-aos-easing="sliding" data-aos-duration="1000">
+
+                <!-- Modal start -->
+                <div class="modal" id="gallery-img_14">
+                    <div class="modal__header">
+                        <span class="modal__header-title">Character101</span>
+                        <a class="modal__header-close" data-dismiss="modal">
+                            <i class="ion-close"></i>
+                        </a>
+                    </div>
+                    <div class="modal__content">
+                        <div class="modal__content--img" style="background-image: url(images/Character101.jpg)"></div>
+                        <div class="modal__content--img" style="background-image: url(images/Character101-2.jpg)"></div>
+                        <div class="modal__content--img" style="background-image: url(images/Character101-3.jpg)"></div>
+                    </div>
+                    <div class="modal__footer">
+                        We bring together architecture, storytelling and emerging technologies to create award winning work.
+                    </div>
+                </div>
+                <!-- Modal end -->
+
+                <div class="col-1-of-3 gallery-container" data-toggle="modal" data-target="#gallery-img_15" data-aos="fade-up" data-aos-delay="300" data-aos-easing="sliding" data-aos-duration="1000">
                     <div class=" gallery-container_img" style="background-image: url(images/Shades_of_grapes.jpg)"></div>
                     <span class="gallery-caption">Shades of Grapes</span>
                 </div>
+
+                <!-- Modal start -->
+                <div class="modal" id="gallery-img_15">
+                    <div class="modal__header">
+                        <span class="modal__header-title">Shades of Grapes</span>
+                        <a class="modal__header-close" data-dismiss="modal">
+                            <i class="ion-close"></i>
+                        </a>
+                    </div>
+                    <div class="modal__content">
+                        <div class="modal__content--img" style="background-image: url(images/Shades_of_grapes.jpg)"></div>
+                        <div class="modal__content--img" style="background-image: url(images/Shades_of_grapes02.jpg)"></div>
+                        <div class="modal__content--img" style="background-image: url(images/Shades_of_grapes03.jpg)"></div>
+                    </div>
+                    <div class="modal__footer">
+                        We bring together architecture, storytelling and emerging technologies to create award winning work.
+                    </div>
+                </div>
+                <!-- Modal end -->
+
             </div>
 
         </main>
         <!-- Main section end -->
-
-        <div class="popup">
-            <div class="popup__header">
-                <span class="popup__header-title">Valon Product Shot</span>
-                <a class="popup__header-close">
-                    <i class="ion-close"></i>
-                </a>
-            </div>
-            <!-- <div class="popup__main">
-                <div class="popup__main-caption"></div>
-                <div class="popup__main-caption"></div>
-            </div> -->
-            <div class="popup__footer">
-                We bring together architecture, storytelling and emerging technologies to create award winning work.
-            </div>
-        </div>
-
         <!-- ---------------------------------------------------------------------- -->
+
         <!-- Footer start -->
         <footer class="footer-section">
             <div class="footer-description">
@@ -158,6 +441,9 @@
         <!-- Footer end -->
 
         <script src="node_modules/aos/dist/aos.js"></script>
+        <script src="node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="node_modules/popper.js/dist/popper.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
         <script src="js/app.js"></script>
     </body>
 

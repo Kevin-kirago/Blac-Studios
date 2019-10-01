@@ -1,18 +1,17 @@
 ==================================================================================================
 DESCRIPTION:
 
-BLAC STUDIOS OFFERS A BROAD RANGE OF 3D PHOTOREALISTIC CGI DESIGN AND PRODUCTION SERVICES FOR CREATING THE PERFECT ILLUSION.
-THE ONLY LIMIT IS YOUR IMAGINATION. OUR TEAM, MADE UP OF A PHOTOGRAPHER, 3D ARTIST, MODELERS AND DESIGNERS, WILL TURN YOUR IDEA INTO A REALITY.
+BLAC STUDIOS offers a broad range of 3D photorealistic CGI, DESIGN AND PRODUCTION services for creating the perfect illusion.
+The only limit is your imagination. Our team, made up of a PHOTOGRAPHER, 3D ARTIST, MODELERS and DESIGNER will turn your dream into a reality.
 
 MISSION STATEMENTS:
-OUR MISSION IS TO CREATE NEW AND LASTING IMPRESSIONS BY
-COMBINING STORIES AND THE LATEST TECHNOLOGY.
+Our mission is to create new and lasting impressions by combining stories and the latest technology.
 
 VISION:
-CREATING NEW MEMORIES THAT LAST A LIFETIME.
+Creating new memories that last a lifetime.
 
 OUR VALUES:
-INNOVATION, INTEGRITY, STANDARD OF EXCELLENCE.
+Innovation, Integrity, Standards of Excellence.
 
 ==================================================================================================
 
