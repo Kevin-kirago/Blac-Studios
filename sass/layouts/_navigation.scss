@@ -30,6 +30,10 @@
 	width: 50%;
 	float: right;
 
+	@include respond(tab-port) {
+		display: none;
+	}
+
 	&-top {
 		height: 50%;
 		display: flex;
@@ -54,6 +58,24 @@
 		li {
 			list-style: none;
 			padding-right: 2rem;
+		}
+	}
+
+	&__text {
+		color: $color-primary-yellow;
+		font-size: 1.3rem;
+	}
+
+	&-toggler {
+		display: none;
+
+		@include respond(tab-port) {
+			display: flex;
+			justify-content: flex-end;
+			align-items: center;
+			width: 50%;
+			height: 100%;
+			float: right;
 		}
 	}
 }
@@ -82,7 +104,180 @@
 	color: $color-primary-yellow;
 }
 
-.navigation__text {
-	color: $color-primary-yellow;
+// **************************************************************
+// Mobile navigation
+// **************************************************************
+.header-menu {
+	&-toggle {
+		position: relative;
+		height: 42px;
+		width: 42px;
+		line-height: 42px;
+		font-family: "roboto", sans-serif;
+		font-size: 1.3rem;
+		text-transform: uppercase;
+		letter-spacing: 0.3rem;
+		color: $color-primary-yellow;
+		-webkit-transition: all 0.5s ease-in-out;
+		transition: all 0.5s ease-in-out;
+
+		&.opaque {
+			background-color: $color-primary-dark;
+
+			.header-menu-text {
+				background-color: $color-primary-dark;
+			}
+		}
+
+		&:hover,
+		&:focus {
+			color: $color-primary-light;
+			outline: none;
+		}
+	}
+	&-text {
+		display: block;
+		position: absolute;
+		top: 0;
+		left: -70px;
+		width: 70px;
+		padding-left: 12px;
+	}
+
+	&-icon {
+		display: block;
+		width: 22px;
+		height: 2px;
+		margin-top: -1px;
+		position: absolute;
+		left: 10px;
+		top: 50%;
+		right: auto;
+		bottom: auto;
+		background-color: white;
+		-webkit-transition: all 0.5s ease-in-out;
+		transition: all 0.5s ease-in-out;
+
+		&::before,
+		&::after {
+			content: "";
+			width: 100%;
+			height: 100%;
+			background-color: inherit;
+			position: absolute;
+			left: 0;
+			-webkit-transition: all 0.5s ease-in-out;
+			transition: all 0.5s ease-in-out;
+		}
+
+		&::before {
+			top: -9px;
+		}
+
+		&::after {
+			bottom: -9px;
+		}
+	}
+}
+
+// navigation container
+// **************************************************************
+
+.header-nav {
+	background: $color-primary-dark;
+	color: rgba(255, 255, 255, 0.25);
+	font-family: "montserrat-light", sans-serif;
 	font-size: 1.3rem;
+	line-height: 1.846;
+	padding: 0 3rem 0 3.6rem;
+	height: 100%;
+	width: 280px;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 700;
+	overflow-y: auto;
+	overflow-x: hidden;
+	visibility: hidden;
+
+	transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+
+	transform: translateX(100%);
+	-webkit-transform: translateX(100%);
+	-moz-transform: translateX(100%);
+	-ms-transform: translateX(100%);
+	-o-transform: translateX(100%);
+
+	&__close {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		height: 15vh;
+		color: $color-primary-light;
+		font-size: 1.55rem;
+
+		span {
+			color: $color-primary-yellow;
+			text-transform: uppercase;
+			font-size: 1.4rem;
+			letter-spacing: 0.2rem;
+		}
+
+		&:hover,
+		&:visited {
+			color: $color-primary-yellow;
+		}
+
+		&:focus {
+			outline: none;
+		}
+	}
+
+	&__content {
+		position: relative;
+		height: 50vh;
+		right: -50px;
+		visibility: hidden;
+		opacity: 0;
+	}
+
+	&__list {
+		list-style: none;
+
+		li {
+			padding: 1.5rem 0;
+			border-bottom: 1px solid;
+
+			a {
+				font-size: 1.4rem;
+			}
+		}
+	}
+}
+
+.menu-is-open {
+	visibility: visible !important;
+	transform: translateX(0) !important;
+	-webkit-transform: translateX(0) !important;
+	-moz-transform: translateX(0) !important;
+	-ms-transform: translateX(0) !important;
+	-o-transform: translateX(0) !important;
+}
+
+.menu-is-open .header-nav__content {
+	visibility: visible !important;
+	opacity: 1;
+	right: 0;
+	-webkit-transition-property: all;
+	transition-property: all;
+	-webkit-transition-duration: 0.5s;
+	transition-duration: 0.5s;
+	-webkit-transition-timing-function: ease-in-out;
+	transition-timing-function: ease-in-out;
+	-webkit-transition-delay: 0.3s;
+	transition-delay: 0.3s;
 }

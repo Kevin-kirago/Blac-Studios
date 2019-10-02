@@ -13,10 +13,6 @@ html {
 		font-size: 75%; //1em = 12px/16 = 75%
 	}
 
-	@include respond(tab-land) {
-		font-size: 56.5%; //1em = 9px/16 = 56.5%
-	}
-
 	@include respond(tab-port) {
 		font-size: 50%; //1em = 8px/16 = 50%
 	}

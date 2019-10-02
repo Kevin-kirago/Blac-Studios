@@ -31,6 +31,9 @@ Icons:
 Javascript Files:
 
 - AOS library
+- bootstrap
+- jquery
+- popper js
 - App.js
 
 ==================================================================================================

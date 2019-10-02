@@ -20,10 +20,18 @@
 
 	.col-1-of-2 {
 		width: calc((100%) / 2);
+
+		@include respond(tab-port) {
+			width: 100%;
+		}
 	}
 
 	.col-1-of-3 {
 		width: calc(((100%) / 3));
+
+		@include respond(tab-port) {
+			width: 100%;
+		}
 	}
 
 	.col-1-of-4 {
