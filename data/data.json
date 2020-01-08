@@ -1,0 +1,96 @@
+{
+	"items": [
+		{
+			"id": 1,
+			"fields": {
+				"title": "Valon Products",
+				"category": "architecture",
+				"image": {
+					"url": ["./images/Valon_01.jpg", "./images/Valon_02.jpg"]
+				}
+			}
+		},
+		{
+			"id": 2,
+			"fields": {
+				"title": "Sminorff Apple Green",
+				"category": "architecture",
+				"image": {
+					"url": ["./images/smirnorff_01.jpg", "./images/smirnoff_02.jpg"]
+				}
+			}
+		},
+		{
+			"id": 3,
+			"fields": {
+				"title": "Whiskey",
+				"category": "architecture",
+				"image": {
+					"url": ["./images/whiskey_01.jpg", "./images/whiskey_02.jpg"]
+				}
+			}
+		},
+		{
+			"id": 4,
+			"fields": {
+				"title": "Fresh Iria Milk",
+				"category": "architecture",
+				"image": {
+					"url": ["./images/iria_01.jpg", "./images/iria_02.jpg"],
+					"video": "https://player.vimeo.com/video/225213273"
+				}
+			}
+		},
+		{
+			"id": 5,
+			"fields": {
+				"title": "Fresh Smoothies",
+				"category": "architecture",
+				"image": {
+					"url": ["./images/smoothies_01.jpg", "./images/smoothies_01.jpg"]
+				}
+			}
+		},
+		{
+			"id": 6,
+			"fields": {
+				"title": "Music",
+				"category": "architecture",
+				"image": {
+					"url": ["./images/music_01.jpg", "./images/music_01.jpg"]
+				}
+			}
+		},
+		{
+			"id": 7,
+			"fields": {
+				"title": "Black",
+				"category": "architecture",
+				"image": {
+					"url": ["./images/black_01.jpg", "./images/black_01.jpg"],
+					"video": "https://player.vimeo.com/video/225213273"
+				}
+			}
+		},
+		{
+			"id": 8,
+			"fields": {
+				"title": "Pride Packshot",
+				"category": "architecture",
+				"image": {
+					"url": ["./images/pride_01.jpg", "./images/pride_02.jpg"]
+				}
+			}
+		},
+		{
+			"id": 9,
+			"fields": {
+				"title": "Music",
+				"category": "architecture",
+				"image": {
+					"url": ["./images/music_01.jpg", "./images/music_01.jpg"]
+				}
+			}
+		}
+	]
+}
