@@ -85,10 +85,70 @@
 		{
 			"id": 9,
 			"fields": {
-				"title": "Music",
+				"title": "Mega Growth Products",
 				"category": "architecture",
 				"image": {
-					"url": ["./images/music_01.jpg", "./images/music_01.jpg"]
+					"url": ["./images/mega_growth_01.jpg", "./images/mega_growth_02.jpg"]
+				}
+			}
+		},
+		{
+			"id": 10,
+			"fields": {
+				"title": "Aliyana Products",
+				"category": "architecture",
+				"image": {
+					"url": ["./images/Aliyana_Products_01.jpg", "./images/Aliyana_Products_02.jpg"]
+				}
+			}
+		},
+		{
+			"id": 11,
+			"fields": {
+				"title": "Kenya Cane",
+				"category": "architecture",
+				"image": {
+					"url": ["./images/KenyaCane_01.jpg", "./images/KenyaCane_02.jpg"]
+				}
+			}
+		},
+		{
+			"id": 12,
+			"fields": {
+				"title": "Toy Car",
+				"category": "architecture",
+				"image": {
+					"url": ["./images/toycar_01.jpg", "./images/toycar_02.jpg"]
+				}
+			}
+		},
+		{
+			"id": 13,
+			"fields": {
+				"title": "Coca-cola bottle",
+				"category": "architecture",
+				"image": {
+					"url": ["./images/Coca-cola01.jpg", "./images/Coca-cola_01.jpg"]
+				}
+			}
+		},
+		{
+			"id": 14,
+			"fields": {
+				"title": "Character 101",
+				"category": "architecture",
+				"image": {
+					"url": ["./images/Character_101_01.jpg", "./images/Character_101_02.jpg"]
+				}
+			}
+		},
+		{
+			"id": 15,
+			"fields": {
+				"title": "Shades of Grapes",
+				"category": "architecture",
+				"image": {
+					"url": ["./images/shades_of_grapes_01.jpg", "./images/shades_of_grapes_02.jpg"]
 				}
 			}
 		}
