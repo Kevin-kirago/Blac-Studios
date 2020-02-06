@@ -2167,6 +2167,7 @@ body {
       .content__container h1 {
         font-size: 2.5rem; } }
   .content__container h2 {
+    font-family: "Arial Black" !important;
     color: #fff;
     text-transform: uppercase;
     font-size: 2.2rem;
@@ -2175,13 +2176,16 @@ body {
       .content__container h2 {
         font-size: 1.7rem; } }
   .content__container p {
-    color: #fff;
+    color: #f7f7f7;
     font-size: 2rem;
     margin-bottom: 1rem; }
     @media (max-width: 62.5em) {
       .content__container p {
         font-size: 1.5rem;
         margin-bottom: 2rem; } }
+    .content__container p b {
+      font-family: "Arial Black" !important;
+      color: #fff; }
     .content__container p span {
       color: #fff;
       text-transform: uppercase;

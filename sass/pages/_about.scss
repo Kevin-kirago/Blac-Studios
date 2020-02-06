@@ -127,6 +127,7 @@
 	}
 
 	h2 {
+		font-family: "Arial Black" !important;
 		color: $color-primary-light;
 		text-transform: uppercase;
 		font-size: 2.2rem;
@@ -138,13 +139,18 @@
 	}
 
 	p {
-		color: $color-primary-light;
+		color: #f7f7f7;
 		font-size: 2rem;
 		margin-bottom: 1rem;
 
 		@include respond(tab-port) {
 			font-size: 1.5rem;
 			margin-bottom: 2rem;
+		}
+
+		b {
+			font-family: "Arial Black" !important;
+			color: $color-primary-light;
 		}
 
 		span {
