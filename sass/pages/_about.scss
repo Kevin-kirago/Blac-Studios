@@ -139,7 +139,7 @@
 	}
 
 	p {
-		color: #f7f7f7;
+		color: #ccc;
 		font-size: 2rem;
 		margin-bottom: 1rem;
 
@@ -154,6 +154,7 @@
 		}
 
 		span {
+			font-family: "Arial Black" !important;
 			color: $color-primary-light;
 			text-transform: uppercase;
 			font-size: 2.2rem;

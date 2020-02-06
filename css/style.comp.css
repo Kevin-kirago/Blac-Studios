@@ -666,7 +666,7 @@ body {
       .content__container h2 {
         font-size: 1.7rem; } }
   .content__container p {
-    color: #f7f7f7;
+    color: #ccc;
     font-size: 2rem;
     margin-bottom: 1rem; }
     @media (max-width: 62.5em) {
@@ -677,6 +677,7 @@ body {
       font-family: "Arial Black" !important;
       color: #fff; }
     .content__container p span {
+      font-family: "Arial Black" !important;
       color: #fff;
       text-transform: uppercase;
       font-size: 2.2rem;
