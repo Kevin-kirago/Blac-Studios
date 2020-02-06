@@ -10,6 +10,20 @@ $color-primary-yellow: rgb(255, 192, 0);
 // Fonts
 $default-font-size: 1.6rem;
 
+@font-face {
+	font-family: "Arial Black";
+	src: url(../fonts/arial-black.ttf) format("truetype");
+	font-style: normal;
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "Arial";
+	src: url(../fonts/arial.ttf) format("truetype");
+	font-style: normal;
+	font-weight: 400;
+}
+
 // ///////////////////////////////////////////////////////////////////////////////////
 // Mixins
 // ///////////////////////////////////////////////////////////////////////////////////
