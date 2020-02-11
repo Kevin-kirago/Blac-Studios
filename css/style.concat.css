@@ -1564,6 +1564,9 @@ body {
   height: auto;
   min-height: 40vh; }
 
+.showreel {
+  padding-top: 15vh; }
+
 .row div[class$="about"],
 .row div[class$="contact"] {
   height: 85vh; }
@@ -1952,7 +1955,7 @@ body {
   background-repeat: no-repeat; }
 
 .item:nth-child(1) {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/Black.png); }
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/Music.jpg); }
 
 .item:nth-child(2) {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/iria.png); }
