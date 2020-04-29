@@ -4,6 +4,7 @@
 			"id": 1,
 			"fields": {
 				"title": "Valon Products",
+				"route_name": "/work/valon_products",
 				"category": "architecture",
 				"image": {
 					"url": ["./images/Valon_01.jpg", "./images/Valon_02.jpg"]

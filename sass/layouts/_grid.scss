@@ -36,5 +36,13 @@
 
 	.col-1-of-4 {
 		width: calc(((100%) / 4));
+
+		@include respond(tab-port) {
+			width: calc((100%) / 2);
+		}
+
+		@include respond(tab-phone) {
+			width: 100%;
+		}
 	}
 }
